@@ -9,12 +9,11 @@ __license__ = "MIT License"
 
 
 """
-Instructions: Add a function to to get input from the user and used that
+Instructions: Add a function to to get input from the user and use that
 function in name_that_shape()
 
 The function should prompt the user for input until a legal value is
-entered. A legal value is any input that name_that_shape() can handle
-and does not return an Error.
+entered. A legal value is any integer.
 
 """
 
