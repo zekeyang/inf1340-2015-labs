@@ -64,7 +64,7 @@ def name_that_shape():
 
 def myfunction():
     user_input = raw_input("Input your value:")
-    while not user_input.isdigit():
+    while not user_input.isdigit() or (user_input[0] == "-" and user_input[1:].isdigit()):
         user_input = raw_input("Input your value again:")
     output = int(user_input)
     return output
