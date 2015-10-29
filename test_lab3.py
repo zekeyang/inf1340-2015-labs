@@ -32,4 +32,5 @@ def test_months_with_31():
 
 # Write a test function for unexpected input
 # Hint: use a try/except block to deal with the exception
+# Hint: use data types other than strings as input
 
