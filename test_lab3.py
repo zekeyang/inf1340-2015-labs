@@ -54,7 +54,7 @@ def test_unexpected_input_number():
     Test with unexpected input, for example 4
     """
     try:
-        days_in_month(23)
+        days_in_month("23")
     except ValueError:
         assert True
 
@@ -64,6 +64,6 @@ def test_unexpected_input_string():
     Test with unexpected input, for example a string other than a month
     """
     try:
-        days_in_month("blah blah")
+        days_in_month(23)
     except AttributeError:
         assert True
