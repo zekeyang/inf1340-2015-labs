@@ -31,7 +31,8 @@ def test_months_with_28_or_29():
     """
     Test months with February
     """
-    assert days_in_month(MONTHS_WITH_28_OR_29) == "28 or 29"
+    for item in MONTHS_WITH_28_OR_29:
+        assert days_in_month(item) == "28 or 29"
 
 
 # Write a test function for months that are not capitalized properly
@@ -41,7 +42,7 @@ def test_months_with_28_or_29():
 def test_months_not_capitalized_properly():
     """
     Test months with months that are not capitalized properly
-    
+
     """
     for item in MONTHS_WITH_31:
         assert days_in_month(item.lower()) == 31
