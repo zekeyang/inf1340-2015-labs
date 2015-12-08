@@ -8,15 +8,6 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-"""
-Instructions: Add a function to to get input from the user and used that
-function in name_that_shape()
-
-The function should prompt the user for input until an integer value is
-entered.
-
-"""
-
 def name_that_shape(sides):
     """
     For a given number of sides in a regular polygon, returns the shape name
@@ -34,7 +25,8 @@ def name_that_shape(sides):
       10   | decagon
       > 10 | Error
 
-    Errors: ValueError when input is a string or float
+    Errors: TypeError when input is a string or float
+            ValueError when input is < 3 or > 10
 
     """
 
